@@ -6,20 +6,7 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import { Link } from 'react-router-dom';
-
-const useStyles = makeStyles((theme: Theme) =>
-	createStyles({
-		root: {
-			flexGrow: 1
-		},
-		menuButton: {
-			marginRight: theme.spacing(2)
-		},
-		title: {
-			flexGrow: 1
-		}
-	})
-);
+import { useStyles } from './styles/NavbarStyles';
 
 export function Navbar() {
 	const classes = useStyles();
