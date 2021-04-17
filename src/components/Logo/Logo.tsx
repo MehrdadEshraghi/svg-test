@@ -9,7 +9,7 @@ interface LogoProps {
 export function Logo(props: LogoProps) {
 	const classes = useStyles();
 	return (
-		<div className={classes.root} >
+		<div >
 			<h1>Hover Me To Rotate</h1>
 			<svg className={classes.logo} width="250px" height="250px"  x="0px" y="0px"
 				viewBox="0 0 512 512">
